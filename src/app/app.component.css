@@ -1,0 +1,33 @@
+.navbar{
+    height: 70px;
+}
+#sc-navbar{
+    height: 40px;
+}
+
+.navbar-expand-md .navbar-nav .dropdown-menu {
+    position: absolute !important;
+}
+img{
+    height: 57px;
+    max-width: auto;
+}
+.fixed-top-2 {
+    top: 60px;
+}
+.navbar-header{
+    background-color: #FFF;
+}
+
+@media (max-width: 700px){
+    #sc-navbar{
+        background-color: unset;
+        height: 0;
+        margin:0;
+        padding: 0;
+    }
+    .nav-link{
+        background-color: #FFF;
+        opacity: 0.6;
+    }
+}
