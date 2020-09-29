@@ -1,42 +1,98 @@
 <nav class="navbar navbar-expand-md navbar-light bg-white flex-row fixed-top">
-        <a class="navbar-brand mr-auto" href="#">
-            <img src="../assets/logo.png" class="img-fluid" alt="Le Brilliant">
-        </a>
-    <ul class="navbar-nav flex-row mr-lg-0">
-        <li class="nav-item">
-            <a class="nav-link pr-2" href="instagram.com"><i class="fa fa-instagram"></i></a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link pr-2" href="facebook.com"><i class="fa fa-facebook"></i></a>
-        </li>
-    </ul>
-    <button class="navbar-toggler ml-lg-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+  <a class="navbar-brand mr-auto" href="#">
+    <img src="../assets/logo.png" class="img-fluid" alt="Le Brilliant">
+  </a>
+  <ul class="navbar-nav flex-row mr-lg-0">
+    <li class="nav-item">
+      <a class="nav-link pr-2" href="instagram.com"><i class="fa fa-instagram mr-auto"></i></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link pr-2" href="facebook.com"><i class="fa fa-facebook mr-auto"></i></a>
+    </li>
+  </ul>
+  <button class="navbar-toggler ml-lg-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 </nav>
 <nav id="sc-navbar" class="navbar navbar-expand-md navbar-light bg-light fixed-top fixed-top-2">
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-                <a class="nav-link active" href="#">Strona główna</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">O nas</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Oferta</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Medycyna estetyczna</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Kosmetologia</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Kontakt</a>
-            </li>
-        </ul>
-    </div>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Strona główna</a>
+      </li>
+      <li class="nav-item pad-10">
+        <a class="nav-link" href="#">O nas</a>
+      </li>
+      <li class="nav-item pad-10">
+        <a class="nav-link" href="#">Oferta</a>
+      </li>
+      <li class="nav-item pad-10">
+        <a class="nav-link" href="#">Medycyna estetyczna</a>
+      </li>
+      <li class="nav-item pad-10">
+        <a class="nav-link" href="#">Kosmetologia</a>
+      </li>
+      <li class="nav-item pad-10">
+        <a class="nav-link" href="#">Kontakt</a>
+      </li>
+    </ul>
+  </div>
 </nav>
 <router-outlet></router-outlet>
+<footer class="page-footer font-small blue pt-4">
+  <div class="container-fluid text-center text-md-left">
+    <div class="row">
+      <div class="col-md-4 mt-md-0 mt-3 text-center">
+        <img class="img-fluid" src="../assets/logo.png">
+        <br>
+          <a class="nav-link w-50 d-inline" href="instagram.com"><i style="font-size: 24px;"
+              class="fa fa-instagram mr-auto"></i></a>
+          <a class="nav-link w-50 d-inline" href="facebook.com"><i style="font-size: 24px;"
+              class="fa fa-facebook mr-auto"></i></a>
+      </div>
+      <hr class="clearfix w-100 d-md-none pb-3">
+      <div class="col-md-4 mb-md-0 mb-3">
+        <h5 class="text-uppercase">Zabiegi</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">Zabieg</a>
+          </li>
+          <li>
+            <a href="#!">Zabieg</a>
+          </li>
+          <li>
+            <a href="#!">Zabieg</a>
+          </li>
+          <li>
+            <a href="#!">Zabieg</a>
+          </li>
+        </ul>
+
+      </div>
+      <div class="col-md-4 mb-md-0 mb-3">
+        <h5 class="text-uppercase">Zabiegi</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">Zabieg</a>
+          </li>
+          <li>
+            <a href="#!">Zabieg</a>
+          </li>
+          <li>
+            <a href="#!">Zabieg</a>
+          </li>
+          <li>
+            <a href="#!">Zabieg</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="https://lebrilliant.pl/"> Le Brilliant</a>
+  </div>
+</footer>
