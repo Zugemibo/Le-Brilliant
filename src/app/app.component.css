@@ -23,6 +23,10 @@ img{
     padding-right: 10px;
 }
 
+a.nav-link{
+    font-size:20px;
+}
+
 @media (max-width: 700px){
     #sc-navbar{
         background-color: unset;
@@ -32,6 +36,13 @@ img{
     }
     .nav-link{
         background-color: #FFF;
-        opacity: 0.75;
+        opacity: 0.85;
+    }
+    a.nav-link{
+        text-align: right;
+    }
+    a.nav-link.active{
+        text-align: right;
+        font: bold;
     }
 }
