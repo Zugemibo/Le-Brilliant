@@ -1,0 +1,36 @@
+#container{
+    background-image: url(../../assets/cropped.png);
+    background-repeat: no-repeat;
+}
+.margin-top{
+    margin-top: 150px;
+}
+.info{
+    height: 300px;
+    text-align: center;
+}
+.styled-text{
+    font-size: 36px;
+    font-weight: 600;
+    color: #06429c;
+}
+.map-responsive{
+    overflow:hidden;
+    right: 0;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:75%;
+    width:100%;
+    position:absolute;
+}
+
+@media(max-width: 768px){
+    .map-responsive iframe{
+        height:100%;
+    }
+}
