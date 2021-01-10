@@ -30,6 +30,9 @@
 }
 
 @media(max-width: 768px){
+    .map-responsive{
+        height:300px;
+    }
     .map-responsive iframe{
         height:100%;
     }
