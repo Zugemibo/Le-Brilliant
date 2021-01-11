@@ -15,7 +15,7 @@ ngOnInit() {
   const script = this.renderer.createElement('script');
   script.src = 'https://booksy.com/widget/code.js?id=77170&country=pl&lang=pl';
   script.onload = () => {
-    console.log('script loaded');
+    console.log('Booksy service started...');
   };
   this.renderer.appendChild(this.elementRef.nativeElement, script);
  }

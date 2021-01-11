@@ -4,10 +4,10 @@
   </a>
   <ul class="navbar-nav flex-row mr-lg-0">
     <li class="nav-item">
-      <a class="nav-link pr-2" href="instagram.com"><i class="fa fa-instagram mr-auto"></i></a>
+      <a class="nav-link pr-2" target="_blank" href="https://www.instagram.com/lebrilliant_/"><i class="fa fa-instagram mr-auto"></i></a>
     </li>
     <li class="nav-item">
-      <a class="nav-link pr-2" href="facebook.com"><i class="fa fa-facebook mr-auto"></i></a>
+      <a class="nav-link pr-2" target="_blank" href="https://www.facebook.com/LeBrilliantKrakow/"><i class="fa fa-facebook mr-auto"></i></a>
     </li>
   </ul>
   <button class="navbar-toggler ml-lg-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -17,16 +17,16 @@
 </nav>
 <nav id="sc-navbar" class="navbar navbar-expand-md navbar-light bg-light fixed-top fixed-top-2">
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mx-auto">
+    <ul class="navbar-nav mx-auto" routerLinkActive="active">
       <!-- mr-auto -->
-      <li class="nav-item">
-        <a class="nav-link active" href="#">Strona główna</a>
+      <li class="nav-item" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+        <a [routerLink]="['/']" class="nav-link">Strona główna</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">O nas</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Oferta</a>
+      <li class="nav-item" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+        <a [routerLink]="['/uslugi']" class="nav-link">Oferta</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Medycyna estetyczna</a>
@@ -34,8 +34,8 @@
       <li class="nav-item">
         <a class="nav-link" href="#">Kosmetologia</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/kontakt">Kontakt</a>
+      <li class="nav-item" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+        <a [routerLink]="['/ontakt']" class="nav-link">Kontakt</a>
       </li>
     </ul>
   </div>
@@ -47,9 +47,9 @@
       <div class="col-md-4 mt-md-0 mt-3 text-center">
         <img class="img-fluid" src="../assets/logo.svg">
         <br>
-          <a class="nav-link w-50 d-inline" href="instagram.com"><i style="font-size: 24px;"
+          <a class="nav-link w-50 d-inline" target="_blank" href="https://www.instagram.com/lebrilliant_/"><i style="font-size: 24px;"
               class="fa fa-instagram mr-auto"></i></a>
-          <a class="nav-link w-50 d-inline" href="facebook.com"><i style="font-size: 24px;"
+          <a class="nav-link w-50 d-inline" target="_blank" href="https://www.facebook.com/LeBrilliantKrakow/"><i style="font-size: 24px;"
               class="fa fa-facebook mr-auto"></i></a>
       </div>
       <hr class="clearfix w-100 d-md-none pb-3">
