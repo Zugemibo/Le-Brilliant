@@ -11,7 +11,7 @@
 }
 .styled-text{
     font-size: 36px;
-    font-weight: 600;
+    font-weight: 450;
     color: #06429c;
 }
 .map-responsive{
@@ -35,5 +35,8 @@
     }
     .map-responsive iframe{
         height:100%;
+    }
+    #contactForm{
+        margin-top: 50px;
     }
 }
