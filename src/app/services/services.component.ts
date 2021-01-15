@@ -1,4 +1,5 @@
 import { Component, ElementRef, OnInit, Renderer2 } from '@angular/core';
+declare var $: any;
 
 @Component({
   selector: 'app-services',
