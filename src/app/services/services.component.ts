@@ -10,14 +10,19 @@ export class ServicesComponent implements OnInit {
 
   constructor(private readonly elementRef: ElementRef,
     private renderer: Renderer2) {
-}
+  }
 
-ngOnInit() {
-  const script = this.renderer.createElement('script');
-  script.src = 'https://booksy.com/widget/code.js?id=77170&country=pl&lang=pl';
-  script.onload = () => {
-    console.log('Booksy service started...');
-  };
-  this.renderer.appendChild(this.elementRef.nativeElement, script);
- }
+  public loadExternalScript(url: string) {
+    const body = <HTMLDivElement>document.body;
+    const script = document.createElement('script');
+    script.innerHTML = '';
+    script.src = url;
+    script.async = true;
+    script.defer = true;
+    body.appendChild(script);
+  }
+
+  ngOnInit() {
+    this.loadExternalScript('https://booksy.com/widget/code.js?id=77170&country=pl&lang=pl');
+  }
 }

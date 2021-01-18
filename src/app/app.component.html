@@ -38,6 +38,11 @@
         <a [routerLink]="['/kontakt']" class="nav-link">Kontakt</a>
       </li>
     </ul>
+    <script>
+      $('.navbar-collapse a').click(function(){
+          $(".navbar-collapse").collapse('hide');
+      });
+  </script>
   </div>
 </nav>
 <router-outlet></router-outlet>
