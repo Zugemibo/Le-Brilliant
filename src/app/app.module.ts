@@ -10,6 +10,12 @@ import { ContactComponent } from './contact/contact.component';
 import { ServicesComponent } from './services/services.component';
 import { ContactService } from './contact.service';
 import { ThalgoComponent } from './thalgo/thalgo.component';
+import { EyeStylingComponent } from './eye-styling/eye-styling.component';
+import { WoskComponent } from './wosk/wosk.component';
+import { ZabiegiWimComponent } from './zabiegi-wim/zabiegi-wim.component';
+import { ZabiegiTwarzComponent } from './zabiegi-twarz/zabiegi-twarz.component';
+import { PeelingiComponent } from './peelingi/peelingi.component';
+import { ManicurePedicureComponent } from './manicure-pedicure/manicure-pedicure.component';
 
 
 @NgModule({
@@ -18,7 +24,13 @@ import { ThalgoComponent } from './thalgo/thalgo.component';
     DashboardComponent,
     ContactComponent,
     ServicesComponent,
-    ThalgoComponent
+    ThalgoComponent,
+    EyeStylingComponent,
+    WoskComponent,
+    ZabiegiWimComponent,
+    ZabiegiTwarzComponent,
+    PeelingiComponent,
+    ManicurePedicureComponent
   ],
   imports: [
     BrowserModule,

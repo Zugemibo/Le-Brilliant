@@ -1,0 +1,53 @@
+.tb {
+    margin-top: 50px;
+}
+
+.thalgo {
+    text-align: center;
+    color     : rgb(6, 66, 156);
+
+}
+
+.table {
+    margin-left: 10%;
+    width      : 80%;
+}
+
+.title p {
+    font-weight: bold;
+    text-align : left;
+}
+
+.description p {
+    text-align : left;
+    margin-left: 10px;
+    min-height : 100px;
+    word-wrap  : break-word;
+    width      : 65%;
+}
+
+.price p {
+    text-align  : right;
+    margin-right: 10px;
+}
+
+.time p {
+    text-align  : right;
+    margin-right: 10px;
+
+}
+
+.link {
+    color: rgb(6, 66, 156);
+}
+
+@media(max-width:576px) {
+    .table {
+        width      : 100%;
+        margin-left: 0;
+    }
+
+    .description p {
+        width: 100%;
+    }
+}

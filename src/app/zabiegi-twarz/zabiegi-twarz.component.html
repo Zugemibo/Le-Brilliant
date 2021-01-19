@@ -1,0 +1,177 @@
+<div class="container-fluid thalgo" style="margin-top: 150px">
+    <h1>Zabiegi na twarz</h1>
+    <table class="table table-hover tb w-80">
+        <tbody>
+            <tr>
+                <td>
+                    <div class="title">
+                        <p>Mezoterapia bezigłowa</p>
+                    </div>
+                </td>
+                <td colspan="2">
+                    <div class="price">
+                        <p>80,00zł</p>
+                    </div>
+                    <div class="time">
+                        <p>30min</p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="title">
+                        <p>Peeling kawitacyjny</p>
+                    </div>
+                </td>
+                <td colspan="2">
+                    <div class="price">
+                        <p>50,00zł</p>
+                    </div>
+                    <div class="time">
+                        <p>30min</p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="title">
+                        <p>Oczyszczanie manualne twarzy + kwas migdałowy</p>
+                    </div>
+                </td>
+                <td colspan="2">
+                    <div class="price">
+                        <p>160,00zł</p>
+                    </div>
+                    <div class="time">
+                        <p>1h30min</p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="title">
+                        <p>Mikrodermabrazja + maska łagodząca</p>
+                    </div>
+                </td>
+                <td colspan="2">
+                    <div class="price">
+                        <p>110,00zł</p>
+                    </div>
+                    <div class="time">
+                        <p>50min</p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="title">
+                        <p>Mezoterapia mikroigłowa twarzy</p>
+                    </div>
+                    <div class="description">
+                        <p>{{(showMmt) ? mmt : mmt | slice:0:150}} <span *ngIf="!showMmt">...</span>
+                            <a class="link" *ngIf="!showMmt" (click)="showMmt=true"> więcej</a>
+                        </p>
+                    </div>
+                </td>
+                <td colspan="2">
+                    <div class="price">
+                        <p>180,00zł</p>
+                    </div>
+                    <div class="time">
+                        <p>1h</p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="title">
+                        <p>Mezoterapia mikroigłowa twarz, szyja i dekolt</p>
+                    </div>
+                    <div class="description">
+                        <p>{{(showMmtsd) ? mmtsd : mmtsd | slice:0:150}} <span *ngIf="!showMmtsd">...</span>
+                            <a class="link" *ngIf="!showMmtsd" (click)="showMmtsd=true"> więcej</a>
+                        </p>
+                    </div>
+                </td>
+                <td colspan="2">
+                    <div class="price">
+                        <p>250,00zł</p>
+                    </div>
+                    <div class="time">
+                        <p>1h15min</p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="title">
+                        <p>ICOONE Face Endermolift</p>
+                    </div>
+                    <div class="description">
+                        <p>{{(showIfe) ? ife : ife | slice:0:150}} <span *ngIf="!showIfe">...</span>
+                            <a class="link" *ngIf="!showIfe" (click)="showIfe=true"> więcej</a>
+                        </p>
+                    </div>
+                </td>
+                <td colspan="2">
+                    <div class="price">
+                        <p>120,00zł</p>
+                    </div>
+                    <div class="time">
+                        <p>50min</p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="title">
+                        <p>Fala Radiowa Twarz + okolica Oka</p>
+                    </div>
+                    <div class="description">
+                        <p>Fala Radiowa. Zabieg w którym skupiamy sie na podgrzaniu skóry. Stymulujemy tym nasze włókna
+                            kolagenowe i elastyne do obkurczenia co podowuje lifting twarzy, spłycenie zmarszczek oraz
+                            poprawe owalu twarzy.</p>
+                    </div>
+                </td>
+                <td colspan="2">
+                    <div class="price">
+                        <p>80,00zł</p>
+                    </div>
+                    <div class="time">
+                        <p>30min</p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="title">
+                        <p>Oczyszczanie manualne twarzy</p>
+                    </div>
+                </td>
+                <td colspan="2">
+                    <div class="price">
+                        <p>120,00zł</p>
+                    </div>
+                    <div class="time">
+                        <p>1h30min</p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="title">
+                        <p>Mikrodermabrazja</p>
+                    </div>
+                </td>
+                <td colspan="2">
+                    <div class="price">
+                        <p>80,00zł</p>
+                    </div>
+                    <div class="time">
+                        <p>40min</p>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

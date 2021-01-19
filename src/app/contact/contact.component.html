@@ -27,7 +27,7 @@
         <input class="form-control" [formControl]="email" placeholder="E-mail" required>
         <label for="Message">Wiadomość</label>
         <textarea class="form-control" [formControl]="message" maxlength="256" placeholder="Wiadomość" required></textarea>
-        <button [disabled]="isLoading" class="btn btn-primary" type="submit">Submit</button>
+        <button [disabled]="isLoading" class="btn btn-primary" type="submit">Wyślij</button>
         <div [ngClass]="!submitted? 'hidden' : 'visible'" class="center-text">
           <span>{{responseMessage}}</span>
         </div>

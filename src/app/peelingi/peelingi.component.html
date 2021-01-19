@@ -1,0 +1,107 @@
+<div class="container-fluid thalgo" style="margin-top: 150px">
+    <h1>Peelingi chemiczne</h1>
+    <table class="table table-hover tb w-80">
+        <tbody>
+            <tr>
+                <td>
+                    <div class="title">
+                        <p>S Peel 20%</p>
+                    </div>
+                    <div class="description">
+                        <p>{{(showSpeel) ? speel : speel | slice:0:150}} <span *ngIf="!showSpeel">...</span>
+                            <a class="link" *ngIf="!showSpeel" (click)="showSpeel=true"> więcej</a>
+                        </p>
+                    </div>
+                </td>
+                <td colspan="2">
+                    <div class="price">
+                        <p>130,00zł</p>
+                    </div>
+                    <div class="time">
+                        <p>1h</p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="title">
+                        <p>F Peel 20%</p>
+                    </div>
+                    <div class="description">
+                        <p>{{(showFpeel) ? fpeel : fpeel | slice:0:150}} <span *ngIf="!showFpeel">...</span>
+                            <a class="link" *ngIf="!showFpeel" (click)="showFpeel=true"> więcej</a>
+                        </p>
+                    </div>
+                </td>
+                <td colspan="2">
+                    <div class="price">
+                        <p>150,00zł</p>
+                    </div>
+                    <div class="time">
+                        <p>1h</p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="title">
+                        <p>R peel 4% retinol + wit. C</p>
+                    </div>
+                    <div class="description">
+                        <p>{{(showRpeel) ? rpeel : rpeel | slice:0:150}} <span *ngIf="!showRpeel">...</span>
+                            <a class="link" *ngIf="!showRpeel" (click)="showRpeel=true"> więcej</a>
+                        </p>
+                    </div>
+                </td>
+                <td colspan="2">
+                    <div class="price">
+                        <p>260,00zł</p>
+                    </div>
+                    <div class="time">
+                        <p>45min</p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="title">
+                        <p>M peel 40%</p>
+                    </div>
+                    <div class="description">
+                        <p>{{(showMpeel) ? mpeel : mpeel | slice:0:150}} <span *ngIf="!showMpeel">...</span>
+                            <a class="link" *ngIf="!showMpeel" (click)="showMpeel=true"> więcej</a>
+                        </p>
+                    </div>
+                </td>
+                <td colspan="2">
+                    <div class="price">
+                        <p>150,00zł</p>
+                    </div>
+                    <div class="time">
+                        <p>1h</p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="title">
+                        <p>G peel 40%</p>
+                    </div>
+                    <div class="description">
+                        <p>{{(showGpeel) ? gpeel : gpeel | slice:0:150}} <span *ngIf="!showGpeel">...</span>
+                            <a class="link" *ngIf="!showGpeel" (click)="showGpeel=true"> więcej</a>
+                        </p>
+                    </div>
+                </td>
+                <td colspan="2">
+                    <div class="price">
+                        <p>150,00zł</p>
+                    </div>
+                    <div class="time">
+                        <p>1h</p>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
