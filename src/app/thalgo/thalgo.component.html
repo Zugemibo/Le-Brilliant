@@ -1,0 +1,139 @@
+<div class="container-fluid thalgo" style="margin-top: 150px">
+    <h1>Zabiegi THALGO</h1>
+    <table class="table table-hover tb w-80">
+        <tbody>
+            <tr>
+                <td>
+                    <div class="title">
+                        <p>ILLUMINTATING RADIANCE FACIAL TREATMENT</p>
+                    </div>
+                    <div class="description">
+                        <p>{{(showRadiance) ? radiance : radiance | slice:0:150}} <span *ngIf="!showRadiance">...</span> 
+                            <a class="link" *ngIf="!showRadiance" (click)="showRadiance=true"> więcej</a></p>
+                    </div>
+                </td>
+                <td colspan="2">
+                    <div class="price">
+                        <p>180,00zł</p>
+                    </div>
+                    <div class="time">
+                        <p>45min</p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="title">
+                        <p>AQUARELLE</p>
+                    </div>
+                    <div class="description">
+                        <p>{{(showAquarelle) ? aquarelle : aquarelle | slice:0:150}} <span *ngIf="!showAquarelle">...</span> 
+                            <a class="link" *ngIf="!showAquarelle" (click)="showAquarelle=true"> więcej</a></p>
+                    </div>
+                </td>
+                <td colspan="2">
+                    <div class="price">
+                        <p>190,00zł</p>
+                    </div>
+                    <div class="time">
+                        <p>1h</p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="title">
+                        <p>SILICIUM MARINE TREATMENT</p>
+                    </div>
+                    <div class="description">
+                        <p>{{(showSilicium) ? silicium : silicium | slice:0:150}} <span *ngIf="!showSilicium">...</span> 
+                            <a class="link" *ngIf="!showSilicium" (click)="showSilicium=true"> więcej</a></p>
+                    </div>
+                </td>
+                <td colspan="2">
+                    <div class="price">
+                        <p>330,00zł</p>
+                    </div>
+                    <div class="time">
+                        <p>1h</p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="title">
+                        <p>EXCEPTIONAL MARINE REDENSIFYING RITUAL</p>
+                    </div>
+                    <div class="description">
+                        <p>{{(showExceptional) ? exceptional : exceptional | slice:0:150}} <span *ngIf="!showExceptional">...</span> 
+                            <a class="link" *ngIf="!showExceptional" (click)="showExceptional=true"> więcej</a></p>
+                    </div>
+                </td>
+                <td colspan="2">
+                    <div class="price">
+                        <p>350,00zł</p>
+                    </div>
+                    <div class="time">
+                        <p>1h</p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="title">
+                        <p>IBEAUTY HYDRATION CORRECTOR</p>
+                    </div>
+                    <div class="description">
+                        <p>Intensywny zabieg nawilżająco-wygładzający z użyciem zaawansowanych technologicznie preparatów i specjalistycznych urządzeń.</p>
+                    </div>
+                </td>
+                <td colspan="2">
+                    <div class="price">
+                        <p>220,00zł</p>
+                    </div>
+                    <div class="time">
+                        <p>1h</p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="title">
+                        <p>CLEAR EXPERT TREATMENT</p>
+                    </div>
+                    <div class="description">
+                        <p>{{(showClear) ? clear : clear | slice:0:150}} <span *ngIf="!showClear">...</span> 
+                            <a class="link" *ngIf="!showClear" (click)="showClear=true"> więcej</a></p>
+                    </div>
+                </td>
+                <td colspan="2">
+                    <div class="price">
+                        <p>250,00zł</p>
+                    </div>
+                    <div class="time">
+                        <p>1h</p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="title">
+                        <p>OCEAN TREATMENT FOR MEN</p>
+                    </div>
+                    <div class="description">
+                        <p>{{(showOcean) ? ocean : ocean | slice:0:150}} <span *ngIf="!showOcean">...</span> 
+                            <a class="link" *ngIf="!showOcean" (click)="showOcean=true"> więcej</a></p>
+                    </div>
+                </td>
+                <td colspan="2">
+                    <div class="price">
+                        <p>250,00zł</p>
+                    </div>
+                    <div class="time">
+                        <p>1h</p>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

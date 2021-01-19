@@ -1,5 +1,4 @@
 import { Component, ElementRef, OnInit, Renderer2 } from '@angular/core';
-declare var $: any;
 
 @Component({
   selector: 'app-services',
@@ -13,7 +12,7 @@ export class ServicesComponent implements OnInit {
   }
 
   public loadExternalScript(url: string) {
-    const body = <HTMLDivElement>document.body;
+    const body = <HTMLDivElement>document.getElementById('booksy-here');
     const script = document.createElement('script');
     script.innerHTML = '';
     script.src = url;

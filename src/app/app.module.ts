@@ -9,6 +9,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { ContactComponent } from './contact/contact.component';
 import { ServicesComponent } from './services/services.component';
 import { ContactService } from './contact.service';
+import { ThalgoComponent } from './thalgo/thalgo.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { ContactService } from './contact.service';
     AppComponent,
     DashboardComponent,
     ContactComponent,
-    ServicesComponent
+    ServicesComponent,
+    ThalgoComponent
   ],
   imports: [
     BrowserModule,
