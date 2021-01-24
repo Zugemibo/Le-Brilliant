@@ -1,70 +1,73 @@
-#parent1{
-    position: relative;
-    height: 650px;
-    width: 100%;
+.image-holder {
+    padding: 0;
 }
-#image-holder{
-    position: absolute;
-    left: 0;
-}
-#decoration{
-    position: absolute;
-    left: 10%;
-    width: 80%;
-    top: 50px;
-    opacity: 0.1;
-    content: url(../../assets/golden-shadow.png);
-}
-#decoration-inner{
-    position: absolute;
-    left: 15%;
-    top: 100px;
-    height: 50%;
-    width: 50%;
-    border: solid 1px rgba(255, 255, 0, 0.4);
 
+.image-holder img {
+    width  : 100%;
+    height : 100%;
+    opacity: 0.8;
 }
-#text-holder{
-    position: absolute;
-    left: 50%;
-    top: 200px;
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
+
+#cont1 {
+    margin-top: 50px;
 }
-#text-bottom{
-    margin: auto;
-    padding-left: 10%;
-    padding-right: 10%;
+
+.img {
+    border-radius: 30px;
 }
-@media (max-width: 700px){
-    #parent1{
-        height: 600px;
-    }
-    #decoration{
-        display: none;
-    }
-    #decoration-inner{
-        display: none;
-    }
-    #text-holder{
-        top: 300px;
-        left: 20%;
-    }
-    #bottom-content{
+
+.text-holder {
+    margin    : 50px 0 50px 0;
+    padding   : 0 20px 0 20px;
+    text-align: center;
+}
+
+.p-class {
+    font-size  : 20;
+    font-weight: 300;
+}
+
+@media(min-width: 300px) and (max-width: 767px) {
+    #cont2 {
         position: relative;
     }
-    #text-bottom{
-        position: absolute;
-        bottom: -200px;
-        z-index: 1;
-        font-weight: 600;
-        background-color: white;
-        padding: 5px;
-        border-radius: 10px;
-        font-size: 11px;
+
+    #cont3 {
+        margin-top: 250px;
     }
-    p#text{
-        opacity: 0.6;
+
+    #image-holder2 {
+        position: absolute;
+        z-index : -1000;
+        top     : 0;
+    }
+
+    #text2 {
+        position              : absolute;
+        top                   : 50px;
+        z-index               : 1000;
+        padding               : 20px;
+        background-color      : rgba(255, 255, 255, 0.6);
+        border-top-left-radius: 30%;
+    }
+
+    #text2>.p-class {
+        padding-top : 20px;
+        padding-left: 20px;
+    }
+    .decor{
+        position: absolute;
+        z-index: 10;
+        border-radius: 30px;
+    }
+}
+
+@media(min-width:768px) {
+    #text1 {
+        margin-top: 100px;
+    }
+
+    .decor {
+        display: none;
     }
 }

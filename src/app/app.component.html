@@ -22,17 +22,11 @@
       <li class="nav-item" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
         <a [routerLink]="['/']" class="nav-link">Strona główna</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">O nas</a>
+      <li class="nav-item" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+        <a [routerLink]="['/o-nas']" class="nav-link">O nas</a>
       </li>
       <li class="nav-item" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
         <a [routerLink]="['/uslugi']" class="nav-link">Oferta</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Medycyna estetyczna</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Kosmetologia</a>
       </li>
       <li class="nav-item" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
         <a [routerLink]="['/kontakt']" class="nav-link">Kontakt</a>
@@ -59,39 +53,45 @@
       </div>
       <hr class="clearfix w-100 d-md-none pb-3">
       <div class="col-md-4 mb-md-0 mb-3">
-        <h5 class="text-uppercase">Zabiegi</h5>
+        <h5 class="text-uppercase">Usługi</h5>
 
         <ul class="list-unstyled">
           <li>
-            <a href="#!">Zabieg</a>
+            <a href="/uslugi/thalgo">Thalgo</a>
           </li>
           <li>
-            <a href="#!">Zabieg</a>
+            <a href="/uslugi/stylizacja-brwi-i-rzes">Stylizacja brwi i rzęs</a>
           </li>
           <li>
-            <a href="#!">Zabieg</a>
+            <a href="/uslugi/wosk">Wosk</a>
           </li>
           <li>
-            <a href="#!">Zabieg</a>
+            <a href="/uslugi/zabiegi-wyszczuplajace-i-modelujace">Zabiegi wyszczuplające i modelujące</a>
+          </li>
+          <li>
+            <a href="/uslugi/masaze">Masaże</a>
           </li>
         </ul>
 
       </div>
       <div class="col-md-4 mb-md-0 mb-3">
-        <h5 class="text-uppercase">Zabiegi</h5>
+        <h5 class="text-uppercase">Usługi</h5>
 
         <ul class="list-unstyled">
           <li>
-            <a href="#!">Zabieg</a>
+            <a href="/uslugi/zabiegi-twarz">Zabiegi na twarz</a>
           </li>
           <li>
-            <a href="#!">Zabieg</a>
+            <a href="/uslugi/peelingi">Peeling chemiczny</a>
           </li>
           <li>
-            <a href="#!">Zabieg</a>
+            <a href="/uslugi/manicure-i-pedicure">Manicure&Pedicure</a>
           </li>
           <li>
-            <a href="#!">Zabieg</a>
+            <a href="/uslugi/rytualy">Rytualy Spa</a>
+          </li>
+          <li>
+            <a href="/uslugi/pakiety">Pakiety</a>
           </li>
         </ul>
 

@@ -1,0 +1,191 @@
+<div class="container-fluid thalgo" style="margin-top: 150px">
+    <h1>Masaże</h1>
+    <p style="opacity: 0.45;">W każdym masażu jest zawarte 15 minut na przygotowanie się przed i odpoczynek po zabiegu.
+    </p>
+    <table class="table table-hover tb w-80">
+        <tbody>
+            <tr>
+                <td>
+                    <div class="title">
+                        <p>Masaż klasyczny</p>
+                    </div>
+                    <div class="description">
+                        <p>Stosuje się w celu rozluźnienia napiętych mięśni. Ma działanie relaksujące i lecznicze. Stosowano go już w starożytności. W naszym salonie łączymy go z aromaterapia i muzykoterapią zwiększając jego efektywność w takich dolegliwościach jak : bóle głowy, napięcia psychiczne, skurcze mięśni, bóle stawów oraz bezsenność.</p>
+                    </div>
+                </td>
+                <td colspan="6">
+                    <div class="price">
+                        <p>80,00zł</p>
+                    </div>
+                    <div class="time">
+                        <p>45min</p>
+                    </div>
+                    <hr>
+                    <div class="price">
+                        <p>130,00zł</p>
+                    </div>
+                    <div class="time">
+                        <p>1h15min</p>
+                    </div>
+                    <hr>
+                    <div class="price">
+                        <p>180,00zł</p>
+                    </div>
+                    <div class="time">
+                        <p>1h45min</p>
+                    </div>
+            </tr>
+            <tr>
+                <td>
+                    <div class="title">
+                        <p>Masaż relaksacyjny z olejkami eterycznymi</p>
+                    </div>
+                    <div class="description">
+                        <p>Rozluźniający i delikatny masaż całego ciała z użyciem olejków eterycznych o różnych
+                            zapachach i właściwościach. Odpręża i odżywia skórę, niosąc ukojenie dla całego ciała. Nasz
+                            masażystką dobierze indywidualnie zapach oraz właściwości pod potrzeby klienta.</p>
+                    </div>
+                </td>
+                <td colspan="6">
+                    <div class="price">
+                        <p>140,00zł</p>
+                    </div>
+                    <div class="time">
+                        <p>1h15min</p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="title">
+                        <p>Masaż stemplami ziołowymi</p>
+                    </div>
+                    <div class="description">
+                        <p>{{(showMsz) ? msz : msz | slice:0:150}} <span *ngIf="!showMsz">...</span>
+                            <a class="link" *ngIf="!showMsz" (click)="showMsz=true"> więcej</a>
+                        </p>
+                    </div>
+                </td>
+                <td colspan="4">
+                    <div class="price">
+                        <p>140,00zł</p>
+                    </div>
+                    <div class="time">
+                        <p>1h15min</p>
+                    </div>
+                </td>
+                <td colspan="2">
+                    <div class="price">
+                        <p>190,00zł</p>
+                    </div>
+                    <div class="time">
+                        <p>1h45min</p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="title">
+                        <p>Masaż gorącymi kamieniami</p>
+                    </div>
+                    <div class="description">
+                        <p>Idealnie sprawdza się w przypadku osłabienia i przemęczenia fizycznego oraz psychicznego.
+                            Świetnie wspiera układ krążenia, poprawiając jego funkcjonowanie. Dzięki właściwością
+                            rozgrzewającym działa odżywczo na skórę oraz rozluźnia napięte mięśnie.</p>
+                    </div>
+                </td>
+                <td colspan="4">
+                    <div class="price">
+                        <p>140,00zł</p>
+                    </div>
+                    <div class="time">
+                        <p>1h15min</p>
+                    </div>
+                </td>
+                <td colspan="2">
+                    <div class="price">
+                        <p>190,00zł</p>
+                    </div>
+                    <div class="time">
+                        <p>1h45min</p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="title">
+                        <p>Masaż sportowy</p>
+                    </div>
+                    <div class="description">
+                        <p>Masaż skierowany głownie dla osób aktywnie uprawiających sport. Doskonale sprawdza się w
+                            przypadku niektórych kontuzji i utrzymania dobrej formy mięśni. To intensywny i zdrowotny
+                            masaż dla poszczególnych partii ciała. Konsultowany indywidualnie z każdym klientem.</p>
+                    </div>
+                </td>
+                <td colspan="6">
+                    <div class="price">
+                        <p>Zmienna</p>
+                    </div>
+                    <div class="time">
+                        <p>1h</p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="title">
+                        <p>Masaż misami tybetańskimi</p>
+                    </div>
+                    <div class="description">
+                        <p>{{(showMmt) ? mmt : mmt | slice:0:150}} <span *ngIf="!showMmt">...</span>
+                            <a class="link" *ngIf="!showMmt" (click)="showMmt=true"> więcej</a>
+                        </p>
+                    </div>
+                </td>
+                <td colspan="6">
+                    <div class="price">
+                        <p>150,00zł</p>
+                    </div>
+                    <div class="time">
+                        <p>1h20min</p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="title">
+                        <p>Masaż relaksacyjny</p>
+                    </div>
+                    <div class="description">
+                        <p>Delikatny masaż całego ciała. wykonywany jest powolnymi, delikatnymi ruchami o działaniu
+                            antystresowym i uspokajającym. Przynosi dużą ulgę dla zmęczonego organizmu. Pozwala się
+                            odprężyć i odzyskać harmonię ciała, umysłu i ducha.</p>
+                    </div>
+                </td>
+                <td colspan="6">
+                    <div class="price">
+                        <p>130,00zł</p>
+                    </div>
+                    <div class="time">
+                        <p>1h15min</p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="title">
+                        <p>Masaż limfatyczny</p>
+                    </div>
+                </td>
+                <td colspan="6">
+                    <div class="price">
+                        <p>130,00zł</p>
+                    </div>
+                    <div class="time">
+                        <p>1h15min</p>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

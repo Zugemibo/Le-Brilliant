@@ -16,6 +16,10 @@ import { ZabiegiWimComponent } from './zabiegi-wim/zabiegi-wim.component';
 import { ZabiegiTwarzComponent } from './zabiegi-twarz/zabiegi-twarz.component';
 import { PeelingiComponent } from './peelingi/peelingi.component';
 import { ManicurePedicureComponent } from './manicure-pedicure/manicure-pedicure.component';
+import { RitualsComponent } from './rituals/rituals.component';
+import { MasazeComponent } from './masaze/masaze.component';
+import { PakietyComponent } from './pakiety/pakiety.component';
+import { AboutComponent } from './about/about.component';
 
 
 @NgModule({
@@ -30,7 +34,11 @@ import { ManicurePedicureComponent } from './manicure-pedicure/manicure-pedicure
     ZabiegiWimComponent,
     ZabiegiTwarzComponent,
     PeelingiComponent,
-    ManicurePedicureComponent
+    ManicurePedicureComponent,
+    RitualsComponent,
+    MasazeComponent,
+    PakietyComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,47 @@
+<div class="container-fluid thalgo" style="margin-top: 150px">
+    <h1>Rytuały SPA</h1>
+    <table class="table table-hover tb w-80">
+        <tbody>
+            <tr>
+                <td>
+                    <div class="title">
+                        <p>Morze ukojenia</p>
+                    </div>
+                    <div class="description">
+                        <p>{{(showMorze) ? morze : morze | slice:0:150}} <span *ngIf="!showMorze">...</span>
+                            <a class="link" *ngIf="!showMorze" (click)="showMorze=true"> więcej</a>
+                        </p>
+                    </div>
+                </td>
+                <td colspan="2">
+                    <div class="price">
+                        <p>260,00zł</p>
+                    </div>
+                    <div class="time">
+                        <p>2h</p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="title">
+                        <p>Tybetański rytuał</p>
+                    </div>
+                    <div class="description">
+                        <p>{{(showTybet) ? tybet : tybet | slice:0:150}} <span *ngIf="!showTybet">...</span>
+                            <a class="link" *ngIf="!showTybet" (click)="showTybet=true"> więcej</a>
+                        </p>
+                    </div>
+                </td>
+                <td colspan="2">
+                    <div class="price">
+                        <p>250,00zł</p>
+                    </div>
+                    <div class="time">
+                        <p>1h45min</p>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
